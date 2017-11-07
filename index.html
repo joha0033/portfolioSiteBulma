@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
   <head>
     <meta charset="utf-8">
     <title>CSS</title>
@@ -10,135 +10,154 @@
   </head>
   <body>
 
-    <div class="columns is-mobile content">
-      <div class="column is-three-fifths is-offset-one-fifth is-large">
 
-          <h1 class="title is-1">Austin R. Johnston</h1>
-          <p class="subtitle is-3">Full Stack Developer</p>
+    <!-- Hero header -->
+    <div class="columns is-mobile">
+      <div class="column is-half is-offset-one-quarter">
+        <section class="hero">
+          <div class="hero-body">
 
+
+            <div class="container is-hidden-touch">
+              <h1 class="title is-1">
+                Austin R. Johnston
+              </h1>
+              <h2 class="subtitle is-3">
+                Full Stack Developer
+              </h2>
+            </div>
+
+            <div class="container is-hidden-desktop">
+              <h1 class="title is-3">
+                AustinJ.
+              </h1>
+              <h2 class="subtitle is-5">
+                Full Stack Dev
+              </h2>
+            </div>
+
+
+          </div>
+        </section>
       </div>
     </div>
 
+    <!-- Navbar -->
+    <nav class="navbar is-warning is-fixed-top">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
 
-      <!-- <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+            <img src="A_logo.png" alt="Alogo" >
+        </a>
+        <div class="navbar-burger burger" data-target="navMenuColorwarning-example">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navMenuColorwarning-example" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#">
+            About
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="#">
+              Portfolio
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#">
+                Dreamboard
+              </a>
+              <a class="navbar-item" href="#">
+                Foris Adventures
+              </a>
+              <a class="navbar-item" href="#">
+                Taparoo
+              </a>
+              <a class="navbar-item" href="#">
+                Off-the-Cuf
+              </a>
+              <a class="navbar-item" href="#">
+                Grateful-Bound
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              <p class="control">
+                <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
+                  <span class="icon">
+                    <i class="fa fa-envelope"></i>
+                  </span>
+                  <span>
+                    email
+                  </span>
+                </a>
+              </p>
+              <p class="control">
+                <a class="button is-primary" href="Resume - 2017.pdf">
+                  <span class="icon">
+                    <i class="fa fa-download"></i>
+                  </span>
+                  <span>resume</span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+    <!-- about me -->
+    <section class="hero">
+      <div class="hero-body">
         <div class="container">
-          <div class="navbar-brand">
-            <a class="logo_img" href="#">
-              <img src="A_logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
-            </a>
-          </div>
+          <h1 class="title">
+            My shitty portfolio
+          </h1>
+          <h2 class="subtitle">
+            I need to redo All my shit... shit redo
+          </h2>
 
-            <div class="navbar-end">
-              <a class="navbar-item" href="#">
-               Portfolio
-              </a>
-              <a class="navbar-item" href="#">
-               About
-              </a>
-              <a class="navbar-item" href="#">
-               Contact
-              </a>
-            </div>
-
-
-          </div>
-
-        <button class="button navbar-burger" onclick="toggleBurger()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <div id="navMenuExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item " href="#">
-              Home
-            </a>
-          </div>
         </div>
-      </nav> -->
+      </div>
+    </section>
 
-
-
-      <nav class="navbar is-warning">
-
-          <div class="navbar-brand">
-
-              <a class="logo_img navbar-burger" href="#">
-                <img src="A_logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
-              </a>
-
-            <div class="navbar-burger burger" data-target="navMenuColorwarning-example">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-
-
-
-        <div id="navMenuColorwarning-example" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="https://bulma.io/">
-              Home
-            </a>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link" href="/documentation/overview/start/">
-                Docs
-              </a>
-              <div class="navbar-dropdown">
-                <a class="navbar-item" href="/documentation/overview/start/">
-                  Overview
-                </a>
-                <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-                  Modifiers
-                </a>
-                <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-                  Columns
-                </a>
-                <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-                  Layout
-                </a>
-                <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
-                  Form
-                </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
-                  Elements
-                </a>
-                <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
-                  Components
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="field is-grouped">
-                <p class="control">
-                  <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
-                    <span class="icon">
-                      <i class="fa fa-twitter"></i>
-                    </span>
-                    <span>
-                      Tweet
-                    </span>
-                  </a>
-                </p>
-                <p class="control">
-                  <a class="button is-primary" href="https://github.com/jgthms/bulma/archive/0.5.1.zip">
-                    <span class="icon">
-                      <i class="fa fa-download"></i>
-                    </span>
-                    <span>Download</span>
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
+    <!-- about me -->
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            About me!!!
+          </h1>
+          <h2 class="subtitle">
+            I should put some pictures here, because I have some good ones.
+          </h2>
         </div>
-      </nav>
+      </div>
+    </section>
 
+    <!-- about me -->
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Get ahold of meh!
+          </h1>
+          <h2 class="subtitle">
+            This should by where you go to contact me
+          </h2>
+        </div>
+      </div>
+    </section>
 
 
 
