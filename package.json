@@ -1,0 +1,25 @@
+{
+  "name": "paralax",
+  "version": "1.0.0",
+  "description": "portfolioTry",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joha0033/portfolioSiteBulma.git"
+  },
+  "keywords": [
+    "portfolioSite"
+  ],
+  "author": "joha0033@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joha0033/portfolioSiteBulma/issues"
+  },
+  "homepage": "https://github.com/joha0033/portfolioSiteBulma#readme",
+  "dependencies": {
+    "scrollmagic": "^2.0.5"
+  }
+}
