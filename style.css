@@ -1,0 +1,9 @@
+.logo_img{
+  max-width: 50%;
+  padding-top: 1.5%;
+  padding-left: 3%;
+}
+img{
+  max-width: 100% !important;
+  margin-bottom: 5%;
+}
